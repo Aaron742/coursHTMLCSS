@@ -1,0 +1,7 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: repeating-radial-gradient(circle at center, red, black 15px);
+}

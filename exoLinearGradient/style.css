@@ -1,0 +1,43 @@
+
+p {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-style: solid;
+    background-image: linear-gradient(rgba(255,255,255), rgba(0,0,0,0.5));
+}
+
+.premiereDiv {
+    background-image: linear-gradient(to left bottom, red, green, blue);
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-style: solid;
+}
+
+.deuxiemeDiv {
+    background-image: linear-gradient(-70deg, yellow 0%, purple 25%);
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-style: solid;
+}
+
+.pinkRadius {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle at center, lightblue, pink );
+    margin-bottom: 20px;
+}
+
+.hypnoRadius {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: repeating-radial-gradient(circle at center, black, white 10px)
+}
+
+.hypnoRadius:hover {
+    background-image: repeating-radial-gradient(circle at center, white, black 10px)
+}

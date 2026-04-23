@@ -1,0 +1,18 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+thead th {
+    border: 2px solid black;
+}
+
+table thead {
+    border: 2px solid black;
+}
+
+table td {
+    border: 2px solid black;
+    text-align: center;
+}

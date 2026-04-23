@@ -1,0 +1,47 @@
+/* HEADER */
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header nav a{
+    color: grey;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* MAIN */
+
+article {
+    border: 2px solid black;
+}
+
+article h2 {
+    color: darkmagenta;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+ article img {
+    width: 200px;
+    height: 300px;
+    margin-left: 42%;
+ }
+
+ /* FOOTER */
+
+ footer {
+    text-align: right;
+ }
+
+ footer nav a {
+    color: red;
+ }
