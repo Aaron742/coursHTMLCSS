@@ -13,11 +13,8 @@
 
         <nav>
             <a href="./index.html">Accueil</a>
-            <br>
             <a href="./blog.html">Blog</a>
-            <br>
             <a href="./galerie.html">Galerie</a>
-            <br>
             <a href="./contact.html">Contact</a>
         </nav>
     </header>
@@ -26,24 +23,28 @@
         <fieldset>
             <legend>Contact</legend>
             <form action="#" method="post">
+                <div>
                 <label for="nom">Nom:* </label>
                 <input type="text" id="nom" placeholder="EX : Robert" required>
-                <br>
+                </div>
 
+                <div>
                 <label for="email">E-mail:* </label>
                 <input type="text" id="email" placeholder="EX : monMail@FAI.com" required>
-                <br>
+                </div>
 
                 <label for="comments">Laissez un commentaire :</label>
-                <br>
+                <div>
                 <textarea name="comments" id="comments" placeholder="Je dépose mon avis :)" rows="10" cols="70"></textarea>
-                <br>
+                </div>
+
                 <input type="checkbox" checked>
                     <label for="checkbox">Envoyer une copie par E-mail !</label>
-                <br>
-
+                
+                <div>
                 <button type="submit">Envoyer</button>
                 <button type="reset">Reset</button>
+                </div>
             </form>
         </fieldset>
     </main>
