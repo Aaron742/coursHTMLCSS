@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+p {
+    background-color: lightgray;
+    border: 3px solid green;
+}
+
+p:nth-of-type(1) {
+    margin: 0;
+    padding: 20px;
+    height: 100px;
+}
+
+p:nth-of-type(2) {
+    margin: 20px 5px;
+    padding: 1.2em;
+    width: 50%;
+}
+
+p:nth-of-type(3) {
+    padding: -30px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
