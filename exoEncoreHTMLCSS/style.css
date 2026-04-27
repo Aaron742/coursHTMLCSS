@@ -32,6 +32,8 @@ input {
 
 button {
     padding: 5px;
+    color: black;
+    background-color: white;
 }
 
 button:hover {
