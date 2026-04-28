@@ -1,0 +1,137 @@
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5); background-image: repeating-radial-gradient(circle at center, green,black 15px);}
+    100% { transform: scale(2);}
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sourcils {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 0;
+}
+
+.sourcils div {
+    height: 20px;
+    width: 500px;
+    margin-left: 150px;
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+div img:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+.eye {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.3),
+    0 0 0 2px rgb(0, 0, 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+    margin: 50px;
+}
+
+.eye:hover {
+    transform: scale(1.1);
+    transition-duration: 5s;
+    background-color: black;
+    box-shadow:
+    inset 0 -3em 3em rgba(255, 255, 255, 0.3),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(255, 255, 255, 0.6);
+}
+
+.spiral {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-image: repeating-radial-gradient(circle at center, red, black 5px);
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.3),
+    0 0 0 2px rgb(0, 0, 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+}
+
+.spiral:active {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: repeating-radial-gradient(circle at center, white, red 5px);
+    box-shadow: 5px 5px 5px 5px;
+    transform: scale(1.3) rotate(360deg);
+    transition-duration: 5s;
+}
+
+.spiral:hover {
+    /* Anim rotate */
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 5s;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.3),
+    0 0 0 2px rgb(0, 0, 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+}
+
+.spiralin {
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.3),
+    0 0 0 2px rgb(0, 0, 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+    border-radius: 100%;
+    background-image: repeating-radial-gradient(circle at center, black, red 3px);
+}
+
+.spiralin:hover {
+    transition-duration: 10s;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.spiralin:active {
+    transition-duration: 25s;
+    transform: scale(1) rotate(360deg);
+    background-image: repeating-radial-gradient(circle at center, red, black 2px);
+}
