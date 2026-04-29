@@ -127,12 +127,14 @@ footer {
     }
 
     main {
-        display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding: 2px;
     }
 
     section {
         width: 100%;
+        margin: 1% auto;
     }
 }
 
