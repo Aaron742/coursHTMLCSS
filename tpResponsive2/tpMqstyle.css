@@ -174,7 +174,7 @@ footer {
     margin-top: 50px;
 }
 
-/* Responsive */
+/* Responsive (Media queries) */
 
 @media screen and (max-width: 768px) {
     header {
@@ -201,3 +201,4 @@ footer {
         grid-row-gap: 50px;
     }
 }
+
